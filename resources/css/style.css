@@ -62,6 +62,9 @@ a {
 }
 
 .image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 300px;
   margin-top: 15px;
   font-family: Georgia;
@@ -76,6 +79,10 @@ a {
   font-size: 40px;
   width: 630px;
   text-align: left;
+}
+
+.lead-story .image-content span {
+  margin-left: 20px;
 }
 
 .fall-cancelled {
